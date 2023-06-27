@@ -1,0 +1,21 @@
+import imgArrowRight from "../../assets/images/whatWeOffer/arrow-right.svg";
+
+function OneBlock(props) {
+  return (
+    <div className="whatWeOffer-block">
+      <div className="whatWeOffer-block-image">
+        <img src={props.image} alt={props.theme} />
+      </div>
+      <div className="whatWeOffer-block-info">
+        <p>{props.info}</p>
+        <div className="whatWeOffer-btn">
+          <h3 className="green-text">Learn More</h3>
+          <a className="btn-link-arrow" href="#top">
+            <img src={imgArrowRight} alt="arrow" />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+export default OneBlock;

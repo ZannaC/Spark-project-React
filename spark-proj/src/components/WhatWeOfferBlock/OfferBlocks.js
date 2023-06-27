@@ -1,11 +1,11 @@
 import img2D from "../../assets/images/whatWeOffer/2DAnimation.png";
-/*import imgArrowRight from "../../assets/images/whatWeOffer/arrow-right.svg";*/
 import imgLogo from "../../assets/images/whatWeOffer/logoDesign.png";
 import imgLogo2 from "../../assets/images/whatWeOffer/logoDesign2.png";
 import imgMobAppDev from "../../assets/images/whatWeOffer/mobAppDevelop.png";
 import imgProductBrand from "../../assets/images/whatWeOffer/productBranding.png";
 import imgVideoEdit from "../../assets/images/whatWeOffer/videoEditing.png";
 import imgWebsite from "../../assets/images/whatWeOffer/websiteDevelop.png";
+import OneBlock from "./OneBlock";
 
 const offerData = [
   {
@@ -49,37 +49,42 @@ const offerData = [
     info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
   },
   {
-    image: "images/whatWeOffer-images/videoEditing.png",
+    image: imgVideoEdit,
     theme: "Video Editing",
     info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
   },
 
   {
-    image: "images/whatWeOffer-images/productBranding.png",
+    image: imgProductBrand,
     theme: "Product Brandingt",
     info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
   },
 ];
 
-function OfferBlock() {
+function OfferBlocks() {
   return (
+    // <div className="what-we-offer">
+    //   <OneBlock
+    //     image={offerData[0].image}
+    //     theme={offerData[0].theme}
+    //     info={offerData[0].info}
+    //   />
+    //   <OneBlock
+    //     image={offerData[1].image}
+    //     theme={offerData[1].theme}
+    //     info={offerData[1].info}
+    //   />
+
     <div className="what-we-offer">
-      <div
-        image={offerData[0].image}
-        theme={offerData[0].theme}
-        info={offerData[0].info}
-      />
-      <div
-        image={offerData[1].image}
-        theme={offerData[1].theme}
-        info={offerData[1].info}
-      />
-      <div
-        image={offerData[2].image}
-        theme={offerData[2].theme}
-        info={offerData[2].info}
-      />
+      {offerData.map((data, index) => (
+        <OneBlock
+          key={index}
+          image={data.image}
+          theme={data.theme}
+          info={data.info}
+        />
+      ))}
     </div>
   );
 }
-export default OfferBlock;
+export default OfferBlocks;

@@ -3,7 +3,7 @@ import ServicesBlock from "./components/FooterBlocks/ServicesBlock";
 import AboutBlock from "./components/FooterBlocks/AboutBlock";
 import SocialMediaBlock from "./components/FooterBlocks/SocialMediaBlock";
 import LogoSubscribeBlock from "./components/FooterBlocks/LogoSubscribeBlock";
-import OfferBlock from "./components/WhatWeOfferBlock/OfferBlock";
+import OfferBlocks from "./components/WhatWeOfferBlock/OfferBlocks";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
             What We <span className="colored-text">Offer</span>
           </h2>
           <div className="what-we-offer-block">
-            <OfferBlock />
+            <OfferBlocks />
           </div>
         </section>
       </main>
