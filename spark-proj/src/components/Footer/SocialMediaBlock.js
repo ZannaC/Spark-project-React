@@ -2,6 +2,7 @@ import Facebook from "../../assets/images/footer/Facebook.svg";
 import Instagram from "../../assets/images/footer/Instagram.svg";
 import Twitter from "../../assets/images/footer/Twitter.svg";
 import backToTop from "../../assets/images/footer/back-to-top.svg";
+import "./footerStyle.css";
 
 function SocialMediaBlock() {
   return (

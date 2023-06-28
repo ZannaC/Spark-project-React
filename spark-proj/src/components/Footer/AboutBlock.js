@@ -1,3 +1,5 @@
+import "./footerStyle.css";
+
 function AboutBlock() {
   return (
     <div>

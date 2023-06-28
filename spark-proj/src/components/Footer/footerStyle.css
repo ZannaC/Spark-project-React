@@ -1,34 +1,4 @@
 /*//////////////// Footer ////////////////////////*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-:root {
-  box-sizing: border-box;
-  font-family: Lato;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 1);
-}
-
-.wrapper {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.main {
-  flex: 1 1 auto;
-}
-
-[class*="-container"] {
-  max-width: 118.75rem;
-  margin: 0px auto;
-}
-/*//////////////// Footer ////////////////////////*/
 
 .logo-block img {
   width: 100%;
@@ -115,8 +85,6 @@ a {
   [class*="-container"] {
     max-width: 30rem;
   }
-
-  /*  footer  */
 
   .footer-container {
     display: flex;
