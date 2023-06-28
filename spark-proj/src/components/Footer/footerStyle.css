@@ -34,7 +34,7 @@ a {
 .email-btn {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   box-sizing: border-box;
   max-width: 18rem;
   height: auto;
