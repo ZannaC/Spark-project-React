@@ -1,0 +1,72 @@
+/*//////////////// Header ///////////////////////*/
+.header-container {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  background-image: url("../../assets/images/header/background.png");
+  background-repeat: no-repeat;
+  box-shadow: 0rem 0.25rem 3.75rem #c7b7b7;
+  background-color: rgba(236, 236, 236, 1);
+}
+
+.socialMedia-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  padding-top: 0.86rem;
+  padding-right: 8.93rem;
+}
+
+.logo-burgerMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 2.3rem;
+  padding-bottom: 14.37rem;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 39.43rem;
+  height: 8.18rem;
+  padding-right: 4.81rem;
+}
+
+img.burgerMenu {
+  box-sizing: border-box;
+  height: 3.43rem;
+  padding-right: 8.75rem;
+  color: rgba(97, 84, 84, 1);
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.81rem;
+  line-height: 3.87rem;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 19.5rem;
+}
+
+h4.subtitle {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 1.37rem;
+  line-height: 2.5rem;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 19.5rem;
+  padding-bottom: 21.56rem;
+}
+
+/*/ ////////////////////////////////////*/
+/* @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
+} */
+
+/*/////////// 320px LANDSCAPE /////////////////////////*/
+/* @media (max-height: 688px) and (orientation: landscape) {
+} */
