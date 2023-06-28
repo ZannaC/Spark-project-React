@@ -6,6 +6,7 @@ import imgProductBrand from "../../assets/images/whatWeOffer/productBranding.png
 import imgVideoEdit from "../../assets/images/whatWeOffer/videoEditing.png";
 import imgWebsite from "../../assets/images/whatWeOffer/websiteDevelop.png";
 import OneBlock from "./OneBlock";
+import "./whatWeOfferStyle.css";
 
 const offerData = [
   {

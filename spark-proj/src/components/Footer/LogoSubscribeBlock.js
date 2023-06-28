@@ -1,5 +1,6 @@
 import footerLogo from "../../assets/images/footer/footer-logo.svg";
 import submit from "../../assets/images/footer/submit.svg";
+import './footerStyle.css'
 
 function LogoSubscribeBlock() {
   return (

@@ -1,3 +1,5 @@
+import "./footerStyle.css";
+
 function ServicesBlock() {
   return (
     <div>

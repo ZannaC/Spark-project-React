@@ -1,9 +1,9 @@
 import "./index.css";
-import ServicesBlock from "./components/FooterBlocks/ServicesBlock";
-import AboutBlock from "./components/FooterBlocks/AboutBlock";
-import SocialMediaBlock from "./components/FooterBlocks/SocialMediaBlock";
-import LogoSubscribeBlock from "./components/FooterBlocks/LogoSubscribeBlock";
-import OfferBlocks from "./components/WhatWeOfferBlock/OfferBlocks";
+import ServicesBlock from "./components/Footer/ServicesBlock";
+import AboutBlock from "./components/Footer/AboutBlock";
+import SocialMediaBlock from "./components/Footer/SocialMediaBlock";
+import LogoSubscribeBlock from "./components/Footer/LogoSubscribeBlock";
+import OfferBlocks from "./components/WhatWeOffer/OfferBlocks";
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
           <h2 className="title">
             What We <span className="colored-text">Offer</span>
           </h2>
-          <div className="what-we-offer-block">
-            <OfferBlocks />
-          </div>
+          <OfferBlocks />
         </section>
       </main>
 
