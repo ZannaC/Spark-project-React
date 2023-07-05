@@ -1,4 +1,9 @@
 /*//////////////// Footer ////////////////////////*/
+.logo-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .logo-block img {
   width: 100%;
@@ -42,10 +47,27 @@ a {
   border-bottom: 0.06rem solid rgb(207, 213, 220);
 }
 
-.email-submit-btn a img {
-  width: 100%;
-  height: 100%;
-  max-width: 85%;
+.email-input {
+  width: 12rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.email-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.12rem;
+  height: 3.12rem;
+  background-color: rgba(254, 200, 61, 1);
+  border-radius: 8px 8px 0px 0px;
+  font-size: 1.25rem;
+  color: rgba(94, 77, 205, 1);
+}
+
+.email-submit-btn:hover {
+  background-color: rgba(200, 75, 4, 1);
+  color: white;
 }
 
 .btn-socialMedia {
@@ -55,10 +77,22 @@ a {
   align-items: flex-end;
 }
 
-.back-to-top-btn a img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
+.back-to-top-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+  width: 3.12rem;
+  height: 3.12rem;
+  background-color: rgba(254, 200, 61, 1);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  color: rgba(94, 77, 205, 1);
+}
+
+.back-to-top-btn:hover {
+  background-color: rgba(200, 75, 4, 1);
+  color: white;
 }
 
 .socialMedia {
@@ -132,8 +166,21 @@ a {
   }
 
   .email-btn {
+    max-width: 17rem;
     padding-top: 0.47rem;
     order: 2;
+  }
+
+  .email-input {
+    width: 13rem;
+    height: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .email-submit-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
   }
 
   li {
@@ -144,6 +191,12 @@ a {
     display: flex;
     flex-direction: row-reverse;
     order: 9;
+  }
+
+  .back-to-top-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
   }
 
   .socialMedia {

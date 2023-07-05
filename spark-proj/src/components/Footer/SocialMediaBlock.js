@@ -7,11 +7,11 @@ import "./footerStyle.css";
 function SocialMediaBlock() {
   return (
     <div class="btn-socialMedia">
-      <div className="back-to-top-btn">
-        <a href="#top">
-          <img src={backToTop} alt="back To Top" />
+      <button>
+        <a className="back-to-top-btn" href="#top">
+          &gt;
         </a>
-      </div>
+      </button>
       <div className="socialMedia">
         <a href="#top">
           <img src={Facebook} alt="Facebook" />
