@@ -6,9 +6,11 @@ function LogoBurgerMenu() {
   return (
     <div className="logo-burgerMenu">
       <img className="logo" src={logo} alt="Logo" />
-      <a href="#top">
-        <img className="burgerMenu" src={burger} alt="Burger menu" />
-      </a>
+      <form>
+        <button type="submit" class="burgerMenu">
+          <img src={burger} alt="Burger menu" />
+        </button>
+      </form>
     </div>
   );
 }

@@ -26,6 +26,7 @@
   box-sizing: border-box;
   padding-top: 2.3rem;
   padding-bottom: 14.37rem;
+  padding-right: 8.75rem;
 }
 
 .logo {
@@ -35,12 +36,15 @@
   padding-right: 4.81rem;
 }
 
-img.burgerMenu {
+.burgerMenu {
   box-sizing: border-box;
-  height: 3.43rem;
-  padding-right: 8.75rem;
-  color: rgba(97, 84, 84, 1);
+  display: inline-block;
+  width: 3.43rem;
+  height: auto;
+  max-width: 100%;
   align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
 }
 
 h1 {

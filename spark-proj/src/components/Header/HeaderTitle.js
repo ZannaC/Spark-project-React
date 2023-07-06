@@ -14,7 +14,6 @@ function HeaderTitle() {
         printing. – Douglas Engelbart, inventor of the <br />
         graphical interface and the mouse
       </h4>
-      ;
     </div>
   );
 }

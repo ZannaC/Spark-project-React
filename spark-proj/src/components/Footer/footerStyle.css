@@ -51,6 +51,13 @@ a {
   width: 12rem;
   height: 2rem;
   padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+input.email-input {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  background-color: transparent;
 }
 
 .email-submit-btn {
@@ -63,6 +70,7 @@ a {
   border-radius: 8px 8px 0px 0px;
   font-size: 1.25rem;
   color: rgba(94, 77, 205, 1);
+  cursor: pointer;
 }
 
 .email-submit-btn:hover {
@@ -88,6 +96,7 @@ a {
   border-radius: 50%;
   font-size: 1.25rem;
   color: rgba(94, 77, 205, 1);
+  cursor: pointer;
 }
 
 .back-to-top-btn:hover {

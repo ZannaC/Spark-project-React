@@ -1,5 +1,5 @@
 import footerLogo from "../../assets/images/footer/footer-logo.svg";
-import Subscribe from "./Subscribe";
+import SubscribeOption2 from "./SubscribeOption2";
 import "./footerStyle.css";
 
 function LogoSubscribeBlock() {
@@ -11,7 +11,7 @@ function LogoSubscribeBlock() {
       <div className="all-rights">
         Copyright © 2020. LogoIpsum. All rights reserved.
       </div>
-      <Subscribe />
+      <SubscribeOption2 />
     </div>
   );
 }
