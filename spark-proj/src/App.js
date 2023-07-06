@@ -9,10 +9,16 @@ import LogoBurgerMenu from "./components/Header/LogoBurgerMenu";
 import HeaderTitle from "./components/Header/HeaderTitle";
 import SubscribeToBlock from "./components/FullServiceAgency/SubscribeToBlock";
 import StatisticsBlock from "./components/FullServiceAgency/StatisticsBlock";
+import DropDown from "./components/DropDownMenu/DropDown";
+import SearchBlock from "./components/DropDownMenu/SearchBlock";
 
 function App() {
   return (
     <div className="wrapper">
+      <header class="drop-down-menu-container">
+        <SearchBlock />
+        <DropDown />
+      </header>
       <header className="header">
         <div className="header-container">
           <SocialMedia />
