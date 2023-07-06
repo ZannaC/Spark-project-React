@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./footerStyle.css";
 
-function Subscribe() {
+function SubscribeOption2() {
   const [data, setData] = useState({ email: "" });
 
   const onChangeEmail = (event) => {
@@ -27,18 +27,13 @@ function Subscribe() {
             onChange={onChangeEmail}
           />
         </div>
-        <button>
-          <a
-            href="https://www.w3docs.com"
-            target="blank"
-            className="email-submit-btn"
-            itemProp="url"
-          >
+        <form action="https://www.w3schools.com" target="blank">
+          <button type="submit" class="email-submit-btn">
             &gt;
-          </a>
-        </button>
+          </button>
+        </form>
       </div>
     </div>
   );
 }
-export default Subscribe;
+export default SubscribeOption2;

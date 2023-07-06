@@ -1,17 +1,17 @@
 import Facebook from "../../assets/images/footer/Facebook.svg";
 import Instagram from "../../assets/images/footer/Instagram.svg";
 import Twitter from "../../assets/images/footer/Twitter.svg";
-import backToTop from "../../assets/images/footer/back-to-top.svg";
+
 import "./footerStyle.css";
 
 function SocialMediaBlock() {
   return (
     <div class="btn-socialMedia">
-      <button>
-        <a className="back-to-top-btn" href="#top">
+      <form action="https://www.w3schools.com" target="blank">
+        <button type="submit" class="back-to-top-btn">
           &gt;
-        </a>
-      </button>
+        </button>
+      </form>
       <div className="socialMedia">
         <a href="#top">
           <img src={Facebook} alt="Facebook" />
@@ -19,7 +19,6 @@ function SocialMediaBlock() {
         <a href="#top">
           <img src={Twitter} alt="Twitter" />
         </a>
-
         <a href="#top">
           <img src={Instagram} alt="Instagram" />
         </a>

@@ -20,6 +20,9 @@ h2 {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 1.18rem;
   grid-column-gap: 3.06rem;
+  max-width: 98.4rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .whatWeOffer-block {
@@ -83,9 +86,15 @@ p {
   left: 0rem;
   top: 12.18rem;
   border-radius: 0.62rem;
+  border: 2px solid #ebe9e9;
   padding: 0.5rem 0.5rem 0.5rem 1.75rem;
   background: #ebe9e9;
   border-radius: 0.62rem;
+  cursor: pointer;
+}
+
+.whatWeOffer-btn:hover {
+  border-color: rgba(0, 157, 157, 1);
 }
 
 /*/////////////////////////////////////*/

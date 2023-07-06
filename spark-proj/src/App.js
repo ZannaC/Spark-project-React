@@ -7,6 +7,8 @@ import OfferBlocks from "./components/WhatWeOffer/OfferBlocks";
 import SocialMedia from "./components/Header/SocialMedia";
 import LogoBurgerMenu from "./components/Header/LogoBurgerMenu";
 import HeaderTitle from "./components/Header/HeaderTitle";
+import SubscribeToBlock from "./components/FullServiceAgency/SubscribeToBlock";
+import StatisticsBlock from "./components/FullServiceAgency/StatisticsBlock";
 
 function App() {
   return (
@@ -25,6 +27,13 @@ function App() {
             What We <span className="colored-text">Offer</span>
           </h2>
           <OfferBlocks />
+        </section>
+        <section className="full-service-agency-container">
+          <h2 className="title">
+            A <span className="colored-text">Full-Service</span> Agency
+          </h2>
+          <StatisticsBlock />
+          <SubscribeToBlock />
         </section>
       </main>
 
