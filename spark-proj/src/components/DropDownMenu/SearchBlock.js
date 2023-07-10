@@ -1,21 +1,23 @@
 import search from "../../assets/images/dropDownMenu/search.svg";
-import closeBtn from "../../assets/images/dropDownMenu/closeBtn.svg";
+import DropDown from "./DropDown";
 import "./dropDownMenu.css";
 
-function SearchBlock() {
+const SearchBlock = (props) => {
   return (
-    <div className="search-close-block">
-      <div class="search-btn">
-        <a href="top#">
-          <img src={search} alt="search icon" />
-        </a>
+    <header className="drop-down-menu-container">
+      <button type="button" onClick={props.onCancel} className="close-btn">
+        ✖
+      </button>
+      <div className="search-close-block">
+        <button className="search-btn">
+          <a href="top#">
+            <img src={search} alt="search icon" />
+          </a>
+        </button>
       </div>
-      <div class="close-btn">
-        <a href="top#">
-          <img src={closeBtn} alt="close button" />
-        </a>
-      </div>
-    </div>
+
+      <DropDown />
+    </header>
   );
-}
+};
 export default SearchBlock;

@@ -5,24 +5,18 @@ import SocialMediaBlock from "./components/Footer/SocialMediaBlock";
 import LogoSubscribeBlock from "./components/Footer/LogoSubscribeBlock";
 import OfferBlocks from "./components/WhatWeOffer/OfferBlocks";
 import SocialMedia from "./components/Header/SocialMedia";
-import LogoBurgerMenu from "./components/Header/LogoBurgerMenu";
+import BurgerMenu from "./components/Header/BurgerMenu";
 import HeaderTitle from "./components/Header/HeaderTitle";
 import SubscribeToBlock from "./components/FullServiceAgency/SubscribeToBlock";
 import StatisticsBlock from "./components/FullServiceAgency/StatisticsBlock";
-import DropDown from "./components/DropDownMenu/DropDown";
-import SearchBlock from "./components/DropDownMenu/SearchBlock";
 
 function App() {
   return (
     <div className="wrapper">
-      <header class="drop-down-menu-container">
-        <SearchBlock />
-        <DropDown />
-      </header>
       <header className="header">
         <div className="header-container">
           <SocialMedia />
-          <LogoBurgerMenu />
+          <BurgerMenu />
           <HeaderTitle />
         </div>
       </header>

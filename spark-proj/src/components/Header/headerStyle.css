@@ -34,6 +34,7 @@
   width: 39.43rem;
   height: 8.18rem;
   padding-right: 4.81rem;
+  pointer-events: none;
 }
 
 .burgerMenu {
