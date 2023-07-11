@@ -1,8 +1,11 @@
-import graphic from "../../assets/images/fullServiceAgency/graphic.png";
+// import graphic from "../../assets/images/fullServiceAgency/graphic.png";
+import React from "react";
 import globe from "../../assets/images/fullServiceAgency/globe.png";
+import StatisticsChart from "./StatisticsChart/StatisticsChart";
+
 import "./fullServiceAgency.css";
 
-function StatisticsBlock() {
+const StatisticsBlock = (props) => {
   return (
     <div className="full-service-agency-columns">
       <div className="full-service-agency-statistics">
@@ -19,12 +22,14 @@ function StatisticsBlock() {
           Always striving toward ideals. Being true to our values. Clients and
           beyond.
         </h5>
-        <img src={graphic} alt="Statistics" />
+        {/* <img src={graphic} alt="Statistics" /> */}
+
+        <StatisticsChart />
       </div>
       <div className="full-service-agency-globe">
         <img src={globe} alt="Statistics" />
       </div>
     </div>
   );
-}
+};
 export default StatisticsBlock;
