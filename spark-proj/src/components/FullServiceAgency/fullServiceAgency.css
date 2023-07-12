@@ -15,7 +15,6 @@ h4 {
 }
 
 h5 {
-  /* display: block; */
   justify-content: center;
   font-size: 1.25rem;
   font-weight: 300;
@@ -23,33 +22,27 @@ h5 {
 
 .full-service-agency-container {
   display: flex;
-  /* box-sizing: border-box; */
-  display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: space-between;
   flex-wrap: wrap;
-  /* max-width: 118.75rem; */
-  /* height: 105.18rem; */
-  /* padding: 162.5px 165px 58px 171px; */
-  padding: 10.16rem 10.31rem 3.63rem 10.69rem;
-  /* padding: 5.88% 8.68% 3.05% 9%; */
+  padding: 3.2% 9.3% 6.3% 9.7%;
 }
 
 .full-service-agency-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* height: auto; */
-  /* height: 48.25rem; */
-  padding: 6.15rem 0.16rem 6.53rem 0.87rem;
-  /* padding: 5.18% 0.21% 5.5% 0.74%; */
-  /* padding: 98.5px 4px 104.5px 14px; */
+  grid-column-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  padding: 6.15rem 0rem 6.53rem 0rem;
 }
 
 .full-service-agency-statistics {
   display: flex;
   flex-direction: column;
-  width: 48.25rem;
-  /* height: 772px; */
+  max-width: 45.6875rem;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .full-service-agency-statistics h5 {
@@ -67,14 +60,17 @@ h5 {
   padding-top: 4.31rem;
 }
 
-.full-service-agency-statistics img {
+/* .full-service-agency-statistics img {
   width: 100%;
   height: auto;
   max-width: 100%;
   pointer-events: none;
-}
+} */
 
 .full-service-agency-globe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44.62rem;
 }
 
@@ -82,8 +78,6 @@ h5 {
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-bottom: 1.71rem;
-  padding-left: 6.81rem;
   border-radius: 3.68rem;
   filter: drop-shadow(0px 4px 44px rgba(0, 0, 0, 0.25));
   pointer-events: none;
@@ -104,7 +98,7 @@ h5 {
   box-shadow: 0rem 0.25rem 4rem rgba(0, 0, 0, 0.1);
   border-radius: 2.18rem;
   box-sizing: border-box;
-  width: 97.75rem;
+  width: 96.1875rem;
   height: 27.62rem;
 }
 
@@ -170,4 +164,106 @@ input.email-btn-input {
 .bench-subscribeBtn:hover {
   background-color: rgba(200, 75, 4, 1);
   color: white;
+}
+/*/////////////////////////////////////*/
+@media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
+  /* [class*="-container"] {
+    max-width: 480px;
+  } */
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 1% 1% 1% 1%;
+  }
+
+  .full-service-agency-columns {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .full-service-agency-statistics {
+    max-width: 18.75rem;
+    align-items: center;
+  }
+
+  .full-service-agency-statistics h5 {
+    max-width: 300px;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.01rem;
+  }
+
+  .bold-text {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .full-service-agency-statistics img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    pointer-events: none;
+  }
+
+  .full-service-agency-globe {
+    padding-top: 1rem;
+    width: 19.375rem;
+  }
+
+  .full-service-agency-bench {
+    height: 18.75rem;
+  }
+
+  .full-service-agency-container {
+    padding: 0.93% 2.77% 2.88% 2.89%;
+  }
+
+  .full-service-agency-bench-image {
+    background-position: bottom;
+    width: 20rem;
+    height: 18.75rem;
+  }
+
+  .full-service-agency-bench-subscribe {
+    left: 0.5rem;
+    max-width: 18.75rem;
+    max-height: 21.875rem;
+    padding: 0.5rem 0rem;
+  }
+
+  .full-service-agency-bench-subscribeBtn {
+    max-width: 26rem;
+    max-height: 2.62rem;
+  }
+
+  .email-btn-input {
+    max-width: 8rem;
+  }
+
+  .bench-subscribeBtn {
+    height: 2.62rem;
+
+    margin-right: 1.81rem;
+    cursor: pointer;
+  }
 }
