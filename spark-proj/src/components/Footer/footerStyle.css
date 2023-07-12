@@ -126,9 +126,9 @@ input.email-input {
 }
 /*/////////////////////////////////////*/
 @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
-  [class*="-container"] {
-    max-width: 30rem;
-  }
+  /* [class*="-container"] {
+    max-width: 480px;
+  } */
 
   .footer-container {
     display: flex;
@@ -156,9 +156,9 @@ input.email-input {
   }
 
   .footer-logo {
-    width: 50%;
+    width: 60%;
     height: auto;
-    max-width: 50%;
+    max-width: 60%;
     order: 3;
     padding-top: 0.5rem;
   }

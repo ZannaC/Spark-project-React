@@ -5,7 +5,7 @@ import "./footerStyle.css";
 function LogoSubscribeBlock() {
   return (
     <div className="logo-block">
-      <div className="footer -logo">
+      <div className="footer-logo">
         <img src={footerLogo} alt="FooterLogo" />
       </div>
       <div className="all-rights">

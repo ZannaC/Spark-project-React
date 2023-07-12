@@ -69,9 +69,40 @@ h4.subtitle {
 }
 
 /*/ ////////////////////////////////////*/
-/* @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
-} */
+@media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
+  .socialMedia-header {
+    padding-right: 1rem;
+  }
 
-/*/////////// 320px LANDSCAPE /////////////////////////*/
-/* @media (max-height: 688px) and (orientation: landscape) {
-} */
+  .logo-burgerMenu {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    width: 200px;
+    height: 50px;
+    padding-right: 1rem;
+  }
+
+  .burgerMenu img {
+    max-width: 60%;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 10rem;
+  }
+
+  h4.subtitle {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+  }
+}
