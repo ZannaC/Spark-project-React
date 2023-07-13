@@ -70,8 +70,12 @@ h4.subtitle {
 
 /*/ ////////////////////////////////////*/
 @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
+  .header-container {
+    background-size: 57%;
+  }
+
   .socialMedia-header {
-    padding-right: 1rem;
+    padding-right: 1.7rem;
   }
 
   .logo-burgerMenu {
@@ -79,13 +83,13 @@ h4.subtitle {
   }
 
   .logo {
-    width: 200px;
-    height: 50px;
     padding-right: 1rem;
   }
 
-  .burgerMenu img {
-    max-width: 60%;
+  .logo-burgerMenu img {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
   }
 
   h1 {
@@ -94,7 +98,7 @@ h4.subtitle {
     line-height: 1.3rem;
     text-align: right;
     text-transform: uppercase;
-    padding-right: 10rem;
+    padding-right: 1.5rem;
   }
 
   h4.subtitle {
@@ -102,7 +106,50 @@ h4.subtitle {
     line-height: 1rem;
     text-align: right;
     text-transform: uppercase;
-    padding-right: 10rem;
-    padding-bottom: 5rem;
+    padding: 1rem 1.5rem 2rem 0rem;
+  }
+}
+/*/////////// LANDSCAPE /////////////////////////*/
+@media (max-height: 688px) and (orientation: landscape) {
+  .header-container {
+    width: auto;
+    height: 50%;
+    max-height: 100%;
+    background-size: contain;
+  }
+
+  .socialMedia-header {
+    padding-right: 1.7rem;
+  }
+
+  .logo-burgerMenu {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    padding-right: 1rem;
+  }
+
+  .logo-burgerMenu img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 1.5rem;
+  }
+
+  h4.subtitle {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem 5rem 0rem;
   }
 }
