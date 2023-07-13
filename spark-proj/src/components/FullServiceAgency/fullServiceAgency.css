@@ -60,13 +60,6 @@ h5 {
   padding-top: 4.31rem;
 }
 
-/* .full-service-agency-statistics img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  pointer-events: none;
-} */
-
 .full-service-agency-globe {
   display: flex;
   justify-content: center;
@@ -167,9 +160,6 @@ input.email-btn-input {
 }
 /*/////////////////////////////////////*/
 @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
-  /* [class*="-container"] {
-    max-width: 480px;
-  } */
   h2 {
     font-size: 1.3rem;
   }
@@ -262,8 +252,91 @@ input.email-btn-input {
 
   .bench-subscribeBtn {
     height: 2.62rem;
-
     margin-right: 1.81rem;
-    cursor: pointer;
+  }
+}
+
+/*/////////// LANDSCAPE /////////////////////////*/
+@media (max-height: 688px) and (orientation: landscape) {
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 1% 1% 1% 1%;
+  }
+
+  .full-service-agency-columns {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .full-service-agency-statistics {
+    align-items: center;
+  }
+
+  .full-service-agency-statistics h5 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .bold-text {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-bench {
+    height: 18.75rem;
+  }
+
+  .full-service-agency-container {
+    padding: 0.93% 2.77% 2.88% 2.89%;
+  }
+
+  .full-service-agency-bench-image {
+    background-position: bottom;
+    width: 40rem;
+    height: 18.75rem;
+  }
+
+  .full-service-agency-bench-subscribe {
+    left: 5rem;
+    max-width: 18.75rem;
+    max-height: 21.875rem;
+    padding: 0.5rem 0rem;
+  }
+
+  .full-service-agency-bench-subscribeBtn {
+    max-width: 26rem;
+    max-height: 2.62rem;
+  }
+
+  .email-btn-input {
+    max-width: 8rem;
+  }
+
+  .bench-subscribeBtn {
+    height: 2.62rem;
+    margin-right: 1.81rem;
   }
 }

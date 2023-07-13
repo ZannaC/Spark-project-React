@@ -109,7 +109,44 @@
   }
 
   .dropDown-menu-block {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  .dropDown-menu-block a {
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .dropDown-menu-block img.icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    padding-right: 1rem;
+  }
+}
+/*/////////// LANDSCAPE /////////////////////////*/
+@media (max-height: 688px) and (orientation: landscape) {
+  .search-block {
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .search-input {
+    width: 90%;
+    height: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .close-btn {
+    top: 1rem;
+    right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .dropDown-menu-block {
+    padding-bottom: 2rem;
   }
 
   .dropDown-menu-block a {
