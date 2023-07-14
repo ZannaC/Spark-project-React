@@ -161,3 +161,18 @@
     padding-right: 1rem;
   }
 }
+
+@media (min-width: 689px) and (max-width: 1024px) {
+  .search-block {
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .close-btn {
+    top: 1rem;
+    right: 1rem;
+  }
+  .dropDown-menu-block {
+    padding-bottom: 2rem;
+  }
+}

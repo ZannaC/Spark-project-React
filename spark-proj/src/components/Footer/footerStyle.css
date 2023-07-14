@@ -253,3 +253,10 @@ input.email-input {
     padding-left: 0.63rem;
   }
 }
+/* 689px — 1024px: Small screens, laptops */
+@media (min-width: 689px) and (max-width: 1024px) {
+  .footer-container {
+    padding: 1.5%;
+    gap: 6%;
+  }
+}

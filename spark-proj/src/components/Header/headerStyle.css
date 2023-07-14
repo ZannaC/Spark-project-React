@@ -93,11 +93,9 @@ h4.subtitle {
   }
 
   h1 {
-    font-weight: 700;
     font-size: 1.3rem;
     line-height: 1.3rem;
     text-align: right;
-    text-transform: uppercase;
     padding-right: 1.5rem;
   }
 
@@ -105,7 +103,6 @@ h4.subtitle {
     font-size: 1rem;
     line-height: 1rem;
     text-align: right;
-    text-transform: uppercase;
     padding: 1rem 1.5rem 2rem 0rem;
   }
 }
@@ -151,5 +148,48 @@ h4.subtitle {
     text-align: right;
     text-transform: uppercase;
     padding: 1rem 1.5rem 5rem 0rem;
+  }
+}
+
+/* 689px — 1024px: Small screens, laptops */
+@media (min-width: 689px) and (max-width: 1024px) {
+  .header-container {
+    background-size: 57%;
+  }
+
+  .socialMedia-header {
+    padding-right: 1.7rem;
+  }
+
+  .logo-burgerMenu {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    padding-right: 1rem;
+  }
+
+  .logo {
+    padding-right: 1.7rem;
+  }
+
+  .logo-burgerMenu img {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    text-align: right;
+    padding-right: 1.5rem;
+  }
+
+  h4.subtitle {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    padding: 1rem 1.5rem 2rem 0rem;
   }
 }

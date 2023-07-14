@@ -40,13 +40,11 @@ h5 {
 .full-service-agency-statistics {
   display: flex;
   flex-direction: column;
-  max-width: 45.6875rem;
   justify-content: center;
   align-items: flex-start;
 }
 
 .full-service-agency-statistics h5 {
-  max-width: 40.18rem;
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 2.25rem;
@@ -107,7 +105,6 @@ h5 {
   position: absolute;
   left: 45.31rem;
   box-sizing: border-box;
-  max-width: 34.37rem;
   max-height: 26.37rem;
   padding-top: 8.53rem;
   padding-bottom: 8.43rem;
@@ -192,12 +189,10 @@ input.email-btn-input {
   }
 
   .full-service-agency-statistics {
-    max-width: 18.75rem;
     align-items: center;
   }
 
   .full-service-agency-statistics h5 {
-    max-width: 300px;
     font-size: 1rem;
     line-height: 1rem;
     letter-spacing: 0.01rem;
@@ -208,37 +203,32 @@ input.email-btn-input {
     padding-top: 1rem;
   }
 
-  .full-service-agency-statistics img {
-    width: 50%;
-    height: auto;
-    max-width: 100%;
-    pointer-events: none;
-  }
-
   .full-service-agency-globe {
     padding-top: 1rem;
-    width: 19.375rem;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 
   .full-service-agency-bench {
-    height: 18.75rem;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .full-service-agency-bench-image {
+    background-position: center;
+  }
+
+  .full-service-agency-bench-subscribe {
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
   }
 
   .full-service-agency-container {
     padding: 0.93% 2.77% 2.88% 2.89%;
-  }
-
-  .full-service-agency-bench-image {
-    background-position: bottom;
-    width: 20rem;
-    height: 18.75rem;
-  }
-
-  .full-service-agency-bench-subscribe {
-    left: 0.5rem;
-    max-width: 18.75rem;
-    max-height: 21.875rem;
-    padding: 0.5rem 0rem;
   }
 
   .full-service-agency-bench-subscribeBtn {
@@ -338,5 +328,67 @@ input.email-btn-input {
   .bench-subscribeBtn {
     height: 2.62rem;
     margin-right: 1.81rem;
+  }
+}
+
+/* 689px — 1024px: Small screens, laptops */
+@media (min-width: 689px) and (max-width: 1024px) {
+  .full-service-agency-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 1.5%;
+  }
+
+  .full-service-agency-columns {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    padding: 1.5%;
+  }
+
+  .full-service-agency-statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .full-service-agency-globe {
+    display: flex;
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .full-service-agency-bench {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .full-service-agency-bench-image {
+    background-position: center;
+  }
+
+  .full-service-agency-bench-subscribe {
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .bold-text {
+    text-align: center;
   }
 }

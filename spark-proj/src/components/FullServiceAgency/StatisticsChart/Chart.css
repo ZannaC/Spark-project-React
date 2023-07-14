@@ -2,7 +2,7 @@
   padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  border-radius: 3.68rem;
+  border-radius: 1cqw;
   background-color: rgba(239, 239, 241, 1);
   box-shadow: 0rem 0.25rem 4rem rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -20,8 +20,9 @@
     padding: 0rem 1rem 0.5rem 1rem;
     text-align: start;
     justify-content: center;
+    width: 100%;
     height: auto;
-    width: 19.375rem;
+    max-width: 98%;
   }
 }
 
@@ -36,5 +37,15 @@
     justify-content: center;
     height: auto;
     width: 19.375rem;
+  }
+}
+
+@media (min-width: 689px) and (max-width: 1024px) {
+  .chart {
+    width: 100%;
+    height: auto;
+    max-width: 98%;
+    text-align: center;
+    justify-content: center;
   }
 }
