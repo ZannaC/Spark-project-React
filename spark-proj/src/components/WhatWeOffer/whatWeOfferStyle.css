@@ -270,3 +270,42 @@ p {
     width: 30%;
   }
 }
+
+@media (min-width: 689px) and (max-width: 1024px) {
+  .what-we-offer-container {
+    padding: 1.5%;
+  }
+
+  .what-we-offer {
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 1rem;
+  }
+
+  .whatWeOffer-block {
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  .whatWeOffer-block-image {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 1rem;
+    padding-top: 20rem;
+  }
+
+  .whatWeOffer-block-info {
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .whatWeOffer-btn {
+    margin-top: 1rem;
+  }
+}

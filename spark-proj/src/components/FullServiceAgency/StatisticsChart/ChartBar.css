@@ -1,5 +1,6 @@
 .chart-bar {
   display: grid;
+  padding-bottom: 1rem;
 }
 
 .chart-bar__inner {
