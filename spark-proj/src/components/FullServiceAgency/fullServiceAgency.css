@@ -25,7 +25,7 @@ h5 {
   justify-content: center;
   align-content: space-between;
   flex-wrap: wrap;
-  padding: 3.2% 9.3% 6.3% 9.7%;
+  padding: 0.5% 9.3% 6.3% 9.7%;
 }
 
 .full-service-agency-columns {
@@ -331,36 +331,44 @@ input.email-btn-input {
   }
 }
 
-/* 689px — 1024px: Small screens, laptops */
-@media (min-width: 689px) and (max-width: 1024px) {
+/*////////////////////////////////////////*/
+@media (min-width: 689px) and (max-width: 1420px) {
+  h2 {
+    font-size: 2rem;
+  }
+
   .full-service-agency-container {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: space-around;
     padding: 1.5%;
   }
 
   .full-service-agency-columns {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
+    grid-template-columns: 1fr 1fr;
     padding: 1.5%;
   }
 
   .full-service-agency-statistics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 90%;
+    justify-content: flex-start;
     align-items: center;
-    width: 100%;
     padding-bottom: 1rem;
   }
 
-  .full-service-agency-globe {
-    display: flex;
+  .full-service-agency-statistics h5 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    text-align: justify;
+    max-width: 80%;
+  }
+
+  .bold-text {
+    font-size: 1.3rem;
     padding-top: 1rem;
+  }
+
+  .full-service-agency-globe {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -381,11 +389,6 @@ input.email-btn-input {
     top: 30%;
     transform: translate(-50%, -50%);
     padding: 0.5rem;
-  }
-
-  h5 {
-    font-size: 1rem;
-    text-align: center;
   }
 
   .bold-text {
