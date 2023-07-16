@@ -66,3 +66,20 @@
     font-size: 0.8rem;
   }
 }
+
+/*////////////////////////////////////////*/
+@media (min-width: 689px) and (max-width: 1560px) {
+  .chart-bar__fill {
+    height: 0.2rem;
+  }
+
+  .chart-bar__label,
+  .chart-bar__value {
+    font-size: 0.8rem;
+  }
+
+  .chart-bar__labelValue {
+    padding-top: 0.7rem;
+    padding-bottom: 0rem;
+  }
+}

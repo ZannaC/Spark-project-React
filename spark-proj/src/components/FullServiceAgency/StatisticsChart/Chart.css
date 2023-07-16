@@ -39,12 +39,13 @@
     width: 19.375rem;
   }
 }
-
-@media (min-width: 689px) and (max-width: 1024px) {
+/*////////////////////////////////////////*/
+@media (min-width: 689px) and (max-width: 1420px) {
   .chart {
+    padding: 0rem 0.2rem 0.2rem 0rem;
     width: 100%;
     height: auto;
-    max-width: 98%;
+    max-width: 95%;
     text-align: center;
     justify-content: center;
   }
