@@ -99,6 +99,29 @@ p {
   border-color: rgba(0, 157, 157, 1);
 }
 
+.whatWeOffer-load-more {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatWeOffer-btn-load-more {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: auto;
+  height: 100%;
+  border-radius: 0.62rem;
+  border: 2px solid #ebe9e9;
+  padding: 0.5rem;
+  background: #ebe9e9;
+  border-radius: 0.62rem;
+  cursor: pointer;
+}
+
 /*/////////////////////////////////////*/
 @media (min-width: 320px) and (max-width: 688px) and (orientation: portrait) {
   .what-we-offer-container {
