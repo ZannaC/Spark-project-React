@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import img2D from "../../assets/images/whatWeOffer/2DAnimation.png";
 import imgLogo from "../../assets/images/whatWeOffer/logoDesign.png";
 import imgLogo2 from "../../assets/images/whatWeOffer/logoDesign2.png";
@@ -63,28 +64,29 @@ const offerData = [
 ];
 
 function OfferBlocks() {
+  const [displayedItems, setDisplayedItems] = useState(2);
+  const addMoreItems = () => {
+    setDisplayedItems((prevItems) => prevItems + 2);
+  };
   return (
-    // <div className="what-we-offer">
-    //   <OneBlock
-    //     image={offerData[0].image}
-    //     theme={offerData[0].theme}
-    //     info={offerData[0].info}
-    //   />
-    //   <OneBlock
-    //     image={offerData[1].image}
-    //     theme={offerData[1].theme}
-    //     info={offerData[1].info}
-    //   />
-
-    <div className="what-we-offer">
-      {offerData.map((data, index) => (
-        <OneBlock
-          key={index}
-          image={data.image}
-          theme={data.theme}
-          info={data.info}
-        />
-      ))}
+    <div>
+      <div className="what-we-offer">
+        {offerData.slice(0, displayedItems).map((data, index) => (
+          <OneBlock
+            key={index}
+            image={data.image}
+            theme={data.theme}
+            info={data.info}
+          />
+        ))}
+      </div>
+      <div className="whatWeOffer-load-more">
+        {displayedItems < offerData.length && (
+          <button className="whatWeOffer-btn-load-more" onClick={addMoreItems}>
+            <h3 className="green-text">Load More</h3>
+          </button>
+        )}
+      </div>
     </div>
   );
 }
