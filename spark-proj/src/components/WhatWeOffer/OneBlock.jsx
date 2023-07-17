@@ -15,8 +15,8 @@ function OneBlock(props) {
         <h3>{props.theme}</h3>
         <p>{props.info}</p>
         <form action="https://www.w3schools.com" target="blank">
-          <button type="submit" class="whatWeOffer-btn">
-            <h3 class="green-text">Learn More</h3>
+          <button type="submit" className="whatWeOffer-btn">
+            <h3 className="green-text">Learn More</h3>
             <img src={imgArrowRight} alt="arrow" />
           </button>
         </form>

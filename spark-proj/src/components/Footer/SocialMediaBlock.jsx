@@ -6,9 +6,9 @@ import "./footerStyle.css";
 
 function SocialMediaBlock() {
   return (
-    <div class="btn-socialMedia">
+    <div className="btn-socialMedia">
       <form action="https://www.w3schools.com" target="blank">
-        <button type="submit" class="back-to-top-btn">
+        <button type="submit" className="back-to-top-btn">
           &gt;
         </button>
       </form>

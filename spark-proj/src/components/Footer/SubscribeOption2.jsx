@@ -25,10 +25,15 @@ function SubscribeOption2() {
             placeholder="Email address"
             value={data.email}
             onChange={onChangeEmail}
+            name="email-input"
           />
         </div>
-        <form action="https://www.w3schools.com" target="blank">
-          <button type="submit" class="email-submit-btn">
+        <form
+          action="https://www.w3schools.com"
+          target="blank"
+          name="subscription-option#2"
+        >
+          <button type="submit" className="email-submit-btn">
             &gt;
           </button>
         </form>

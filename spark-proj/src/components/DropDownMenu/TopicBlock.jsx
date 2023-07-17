@@ -39,7 +39,7 @@ function TopicBlock() {
       {list.map((topic, id) => (
         <li>
           <a href="top#">
-            <img class="icon" alt="topic-icon" src={topic.image} />
+            <img className="icon" alt="topic-icon" src={topic.image} />
             {topic.title}
           </a>
         </li>

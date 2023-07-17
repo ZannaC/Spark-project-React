@@ -22,8 +22,6 @@ const StatisticsBlock = (props) => {
           Always striving toward ideals. Being true to our values. Clients and
           beyond.
         </h5>
-        {/* <img src={graphic} alt="Statistics" /> */}
-
         <StatisticsChart />
       </div>
       <div className="full-service-agency-globe">
